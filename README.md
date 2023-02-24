@@ -28,7 +28,7 @@ Things I've learned:
    - [Test](#test)
    - [Questions](#questions)
 
-  ## Installation
+## Installation
 
 Please download the application via GitHub: 
 - Run "npm install" to create the package-lock.json file 
@@ -36,7 +36,7 @@ Please download the application via GitHub:
 - Seed the database in the terminal via node seeds/index.js
 - Run the application via "npm start"
 
-  ## Usage
+## Usage
 
 A walkthrough video is available! 
 
