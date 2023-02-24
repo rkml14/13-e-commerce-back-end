@@ -33,7 +33,7 @@ Things I've learned:
 Please download the application via GitHub: 
 - Run "npm install" to create the package-lock.json file 
 - Using the mySQL shell, source the schema.sql file in the 'db' folder to create the database
-- Seed the database in the terminal via node seeds/index.js
+- Seed the database in the terminal via node seeds/index.js or via npm run seeds
 - Run the application via "npm start"
 
 ## Usage

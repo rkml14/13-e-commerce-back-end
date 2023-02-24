@@ -68,10 +68,9 @@ router.post('/', (req, res) => {
     });
 });
 
-
-//Update product
+//Update product data 
 router.put('/:id', (req, res) => {
-  // update product data
+
   Product.update(req.body, {
     where: {
       id: req.params.id,

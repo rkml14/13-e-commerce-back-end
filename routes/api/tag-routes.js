@@ -46,7 +46,7 @@ router.put('/:id', async (req, res) => {
   //Calls the update method on the Tag model
   Tag.update(
     {
-      // All the fields you can update and the data attached to the request body.
+      // All the fields that can be updated and the data attached to the request body.
       id: req.body.id,
       tag_name: req.body.tag_name,
     },
