@@ -37,31 +37,7 @@ router.get('/:id', async (req, res) => {
   }
 });
 
-
-
-// POST create a new user from module 19 
-// router.post('/', async (req, res) => {
-//   try {
-//     const userData = await User.create({
-//       username: req.body.username,
-//       email: req.body.email,
-//       password: req.body.password,
-//       numberOfPets: req.body.numberOfPets,
-//     });
-//     res.status(200).json(userData);
-//   } catch (err) {
-//     res.status(400).json(err);
-//   }
-// });
-
-
-/* req.body should look like this...
-    product_name: req.body.product_name,
-    price: req.body.price,
-    stock: req.body.stock,
-    tagIds: [1, 2, 3, 4]
-
-/* req.body should look like this...
+/* Insomnia json req.body should look like this...
     product_name: "Basketball",
       price: 200.00,
       stock: 3,
@@ -135,21 +111,25 @@ router.put('/:id', (req, res) => {
     });
 });
 
-router.delete('/:id', (req, res) => {
-  // delete one product by its `id` value
-});
-// Delete one product by its `id` value
-router.delete('/:id', (req, res) => {
-  Product.destroy({
+
+// Delete one product by its 'id' value
+router.delete('/:id', async (req, res) => {
+try {
+  const productDestroy = await Product.destroy({
     where: {
       id: req.params.id,
     },
-  })
-    .then((deletedProduct) => {
-      res.status(200).json(deletedProduct);
-    })
-    .catch((err) => res.json(err));
+  });
+  if (!productDestroy) {
+    res.status(404).json({ message: 'No product found with that id!' });
+    return;
+  }
+  res.status(200).json(productDestroy);
+} catch (err) {
+  res.status(500).json(err);
+}
 });
+
 
 
 
