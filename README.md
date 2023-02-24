@@ -79,9 +79,9 @@ Testing was done in Insomina
   ## Credits
 
 Bootcamp buddy! Cassandra Watson https://github.com/cassiewatsonn <br>
+And our new buddy: Mozhdeh Khorashahi! https://github.com/mojsun 
 
-
-  
+   
 
 ## Questions
    Please contact me via one of the following methods: 
