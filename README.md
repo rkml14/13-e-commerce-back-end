@@ -38,7 +38,7 @@ Please download the application via GitHub:
 
 ## Usage
 
-A walkthrough video is available! 
+<a href = "https://drive.google.com/file/d/1JGAdItxMo8Jd-FrGbyHnBeSzktkNe46Y/view"> A walkthrough video is available!  </a>
 
 The client can pick from many API functions for their e-commerce back-end, some examples include: 
 
@@ -53,9 +53,6 @@ Error message displayed if the client attempts to delete an invalid id:
 ![api-route-DELETE-tags-error-example](./assets/API-DELETE-tags-error.png)
 
 
-
-A gif on how to use the application: <br>
-![gif-demonstration-of-the-application](./assets/walkthrough.gif)
 
 
 
@@ -73,13 +70,17 @@ A gif on how to use the application: <br>
 
   ## Test
 
-Testing was done in Insomina
+Testing was done in Insomina, a quick .gif demonstrating some of the api routes (please see the video above for a full walkthrough of the tests):
+
+![brief-demonstration-of-some-of-the-api-routes-available-in-the-application](./assets/walkthrough.gif)
 
 
   ## Credits
 
-Bootcamp buddy! Cassandra Watson https://github.com/cassiewatsonn <br>
-And our new buddy: Mozhdeh Khorashahi! https://github.com/mojsun 
+Bootcamp buddy! <a href = "https://github.com/cassiewatsonn">Cassandra Watson </a> <br>
+And our new buddy: <a href = "https://github.com/mojsun">Mozhdeh Khorashahi! </a>
+
+And as ever, a special thank you to the Amazing Dominique Meeks Gombe! 
 
    
 
